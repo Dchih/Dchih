@@ -3,7 +3,7 @@
 </p>
 
 <details>
-<summary align="center"><picture><img src="assets/01-start.svg" alt="Press star to start. Click to open the character sheet and inventory."></picture></summary>
+<summary align="center"><picture><img src="assets/01-start.svg" align="middle" alt="Press star to start. Click to open the character sheet and inventory."></picture></summary>
 <br>
 
 <p align="center">
