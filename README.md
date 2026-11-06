@@ -1,15 +1,12 @@
-<p align="center">
-  <img src="assets/01-hero.svg" width="840" alt="Pixel-art night city whose towers are shaped like a contribution graph. Hello, I'm Chih. Developer, love and embrace AI, tinker with agents.">
-</p>
+Hello, I'm Chih<br>
+Developer, love & embrace AI, tinker with agents.<br>
+TS · VUE · JAVA · PY · DB · RUST<br>
+Now learning: agents + LLM
 
-<p align="center">
-  <img src="assets/03-character-sheet.svg" width="840" alt="Character sheet. Full-stack developer working with TypeScript, Vue, Java, Python and Rust. Currently levelling up on AI agents and LLMs. Skills: frontend, backend, learning agents, learning LLMs.">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg">
+  <img src="assets/activity-light.svg" width="100%" alt="3D bar chart of daily GitHub contributions over the last year.">
+</picture>
 
-<p align="center">
-  <img src="assets/04-inventory.svg" width="840" alt="Inventory: TypeScript, Vue, Java, Python, databases, Rust.">
-</p>
-
-<p align="center">
-  <a href="mailto:duzchih@gmail.com"><img src="assets/02-email.png" width="198" alt="Email me"></a>
-</p>
+[Email](mailto:duzchih@gmail.com)

@@ -1,5 +1,5 @@
-# Rebuilds the hero so its towers match real contribution activity.
-name: Update skyline
+# Rebuilds the 3D chart so it matches real contribution activity.
+name: Update activity chart
 
 on:
   schedule:
@@ -30,12 +30,12 @@ jobs:
               }
             }' > tools/contributions.json
 
-      - name: Build hero
-        run: python3 tools/build_animated.py hero
+      - name: Build chart
+        run: python3 tools/build_activity.py
 
-      - name: Commit if the skyline changed
+      - name: Commit if the chart changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/01-hero.svg
-          git diff --cached --quiet || { git commit -m "Update skyline from contributions" && git push; }
+          git add assets/activity-dark.svg assets/activity-light.svg
+          git diff --cached --quiet || { git commit -m "Update activity chart" && git push; }
